@@ -3,9 +3,12 @@ package com.company;
 public class Main {
   public static void main(String[] args) {
     
-    int i = 0, j= 0, cantidad = 100, rango = 140;
+    int i = 0, j= 0, cantidad = 100, rango = 140, a, b, c, n = 100;
     int ArrayGenerator[] = new int[cantidad];
-
+    int Fibonacci[] = new int[n];
+        c = a + b;
+        a = b;
+        b = c;
     ArrayGenerator[i] = (int) (Math.random() * rango);
     do {
       
@@ -19,7 +22,9 @@ public class Main {
          j++;
          } while (j<1);
       } while(i<cantidad);
-
+      if(Fibonacci[] == ArrayGenerator[])
+         System.out.println("no sirve");
+      }
       for (int k = 0; k < cantidad; k++) {
 
         System.out.println((k + 1) + ".- " + ArrayGenerator[k] + "\n");
