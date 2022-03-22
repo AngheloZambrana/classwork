@@ -1,0 +1,28 @@
+package com.company;
+
+public class Main {
+  public static void main(String[] args) {
+    
+    int i = 0, j= 0, cantidad = 100, rango = 140;
+    int ArrayGenerator[] = new int[cantidad];
+
+    ArrayGenerator[i] = (int) (Math.random() * rango);
+    do {
+      
+      ArrayGenerator[i] = (int) (Math.random() * rango);
+      do {
+        
+        if (ArrayGenerator[i] == ArrayGenerator[j]) {
+         
+          i--;
+          }
+         j++;
+         } while (j<1);
+      } while(i<cantidad);
+
+      for (int k = 0; k < cantidad; k++) {
+        a
+        System.out.println((k + 1) + ".- " + ArrayGenerator[k] + "\n");
+        }
+     }
+  }
