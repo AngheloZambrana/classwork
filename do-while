@@ -21,7 +21,7 @@ public class Main {
       } while(i<cantidad);
 
       for (int k = 0; k < cantidad; k++) {
-        a
+
         System.out.println((k + 1) + ".- " + ArrayGenerator[k] + "\n");
         }
      }
